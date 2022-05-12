@@ -1,0 +1,43 @@
+// Adding the scss for TaskList
+
+.ag-grid-tasklist {
+  height: 93%;
+  width: 100%;
+  svg {
+    transform: scale(1.5);
+  }
+}
+.tasklist {
+  padding: 1rem;
+  height: 93%;
+  width: 100%;
+  select {
+    border: 1px solid #ced4da;
+    height: 38px;
+    border-radius: 0.25rem;
+    width: 10rem;
+  }
+}
+.ag-header-cell-label {
+  justify-content: center;
+}
+.ag-cell {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.edit-ticket-btn {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-ticket-btn {
+  padding-top: 5px;
+}
+.sprint-div {
+  display: flex;
+  select {
+    margin-right: 10px;
+  }
+}
